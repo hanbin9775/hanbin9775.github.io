@@ -1,17 +1,59 @@
 ---
 layout: default
 ---
-    <section id="sideMenuBar">
-        <ul>
-            <li>Programming</li>
-                <ul class = "childMenu">
-                   <li>Front-End</li>
-                   <li>Back-End</li>
-                   <li>Algorithm</li> 
-                </ul>
-            <li>Design</li>
-                <ul class = "childMenu">
-                    <li>UX/UI</li> 
-                </ul>
-        </ul>
-    </section>
+{% assign frontCnt=0 %}
+{% for post in site.posts %}
+  {% if post.tag == "front" %}
+    {% assign frontCnt=frontCnt | plus:1 %}
+  {% endif %}
+{% endfor %}
+
+{% assign BackCnt=0 %}
+{% for post in site.posts %}
+  {% if post.tag == "back" %}
+    {% assign BackCnt=BackCnt | plus:1 %}
+  {% endif %}
+{% endfor %}
+
+{% assign AlgorithmCnt=0 %}
+{% for post in site.posts %}
+  {% if post.tag == "algorithm" %}
+    {% assign AlgorithmCnt=AlgorithmCnt | plus:1 %}
+  {% endif %}
+{% endfor %}
+
+{% assign UXUICnt=0 %}
+{% for post in site.posts %}
+  {% if post.tag == "uxui" %}
+    {% assign UXUICnt=UXUICnt | plus:1 %}
+  {% endif %}
+{% endfor %}
+
+<section id="sideMenuBar">
+  <ul>
+      <li>Programming</li>
+          <ul class = "childMenu">
+             <li>Front-End ({{frontCnt}})</li>
+             <li>Back-End ({{BackCnt}})</li>
+             <li>Algorithm ({{AlgorithmCnt}})</li> 
+          </ul>
+      <li>Design</li>
+          <ul class = "childMenu">
+              <li>UX/UI ({{UXUICnt}})</li> 
+          </ul>
+  </ul>
+</section>
+<br>
+<br>
+<br>
+<section id="postList">
+  <h1>Latest Posts</h1>
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 156 }}  </p>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
