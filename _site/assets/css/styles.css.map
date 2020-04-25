@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\r\n\r\n",
+		"@font-face {\r\n    font-family: 'NotoSansCJKkr-Medium';\r\n\tsrc : url(../fonts/NotoSansCJKkr-Medium.otf) format('truetype');\r\n}\r\n\r\nhtml, body {\r\n\theight: 100%;\r\n\tfont-family : NotoSansCJKkr-Medium\r\n}\r\n\r\n#header{\r\n    border-bottom : 1px solid black;\r\n    height: 65px;\r\n    position: fixed;\r\n    top :0;\r\n    width : 100%;\r\n    background-color : #ffffff;\r\n    z-index : 10;\r\n}\r\n\r\n\r\n#blogTitle{\r\n    position: absolute;\r\n    top:1.5%;\r\n    left:5%;\r\n}\r\n\r\n#blogTitle a{\r\n    color: black; \r\n    text-decoration: none;\r\n}\r\n\r\n#navMenu{\r\n    position: absolute;\r\n    top:1.5%;\r\n    right:5%;\r\n    list-style-type: none;\r\n}\r\n\r\n#navMenu li{\r\n    display: inline-block;\r\n    padding:0px 30px;\r\n}\r\n\r\n#navMenu li a{\r\n    color: black; \r\n    text-decoration: none;\r\n}\r\n\r\n.content {\r\n    color : gray;\r\n}\r\n\r\n#mainSection{\r\n    display: flex;\r\n    height: 85%;\r\n    background-color: #ffffff;\r\n}\r\n\r\n#joelPicture{\r\n    width:400px;\r\n    height:400px;\r\n    margin:auto;\r\n}\r\n\r\n#sideMenuBar {\r\n    position : fixed;\r\n    top: 65px;\r\n    height : 90%;\r\n    width : 300px;\r\n    border-right: 2px solid black;\r\n    background-color: black;\r\n}\r\n\r\n#sideMenuBar ul li{\r\n    list-style-type: none;\r\n    color : white;\r\n    padding : 20px;\r\n    font-size: 20px;\r\n}\r\n\r\n.childMenu li{\r\n    font-size : 10px;\r\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,UAAU,GACN,WAAW,EAAE,sBAAsB,EACtC,GAAG,EAAG,sCAAsC,CAAC,kBAAkB;;AAGhE,AAAA,IAAI,EAAE,IAAI,CAAC,EACV,MAAM,EAAE,IAAI,EACZ,WAAW,EAAG,oBACf,GAAC;;AAED,AAAA,OAAO,CAAA,EACH,aAAa,EAAG,eAAe,EAC/B,MAAM,EAAE,IAAI,EACZ,QAAQ,EAAE,KAAK,EACf,GAAG,EAAE,CAAC,EACN,KAAK,EAAG,IAAI,EACZ,gBAAgB,EAAG,OAAO,EAC1B,OAAO,EAAG,EAAE,GACf;;AAGD,AAAA,UAAU,CAAA,EACN,QAAQ,EAAE,QAAQ,EAClB,GAAG,EAAC,IAAI,EACR,IAAI,EAAC,EAAE,GACV;;AAED,AAAA,UAAU,CAAC,CAAC,CAAA,EACR,KAAK,EAAE,KAAK,EACZ,eAAe,EAAE,IAAI,GACxB;;AAED,AAAA,QAAQ,CAAA,EACJ,QAAQ,EAAE,QAAQ,EAClB,GAAG,EAAC,IAAI,EACR,KAAK,EAAC,EAAE,EACR,eAAe,EAAE,IAAI,GACxB;;AAED,AAAA,QAAQ,CAAC,EAAE,CAAA,EACP,OAAO,EAAE,YAAY,EACrB,OAAO,EAAC,QAAQ,GACnB;;AAED,AAAA,QAAQ,CAAC,EAAE,CAAC,CAAC,CAAA,EACT,KAAK,EAAE,KAAK,EACZ,eAAe,EAAE,IAAI,GACxB;;AAED,AAAA,QAAQ,CAAC,EACL,KAAK,EAAG,IAAI,GACf;;AAED,AAAA,YAAY,CAAA,EACR,OAAO,EAAE,IAAI,EACb,MAAM,EAAE,GAAG,EACX,gBAAgB,EAAE,OAAO,GAC5B;;AAED,AAAA,YAAY,CAAA,EACR,KAAK,EAAC,KAAK,EACX,MAAM,EAAC,KAAK,EACZ,MAAM,EAAC,IAAI,GACd;;AAED,AAAA,YAAY,CAAC,EACT,QAAQ,EAAG,KAAK,EAChB,GAAG,EAAE,IAAI,EACT,MAAM,EAAG,GAAG,EACZ,KAAK,EAAG,KAAK,EACb,YAAY,EAAE,eAAe,EAC7B,gBAAgB,EAAE,KAAK,GAC1B;;AAED,AAAA,YAAY,CAAC,EAAE,CAAC,EAAE,CAAA,EACd,eAAe,EAAE,IAAI,EACrB,KAAK,EAAG,KAAK,EACb,OAAO,EAAG,IAAI,EACd,SAAS,EAAE,IAAI,GAClB;;AAED,AAAA,UAAU,CAAC,EAAE,CAAA,EACT,SAAS,EAAG,IAAI,GACnB"
+}

@@ -1,0 +1,14 @@
+<header id="header">
+    <h3 id="blogTitle"><a href="/">Joel's Dev Blog (공사 중 ⚠)</a></h3>
+    <ul id="navMenu">
+        {% for item in site.data.navigation %}
+            <li>
+                <a href="{{ item.link }}" {% if page.url == item.link %}style="color:gray"{% endif %}>
+                    {{ item.name }}
+                </a>
+            </li>
+        {% endfor %}
+        <li>About Joel</li>
+        <li>Art</li>
+    </ul>
+</header>
