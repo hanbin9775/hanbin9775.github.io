@@ -20,11 +20,11 @@ html, body { height: 100%; font-family: NotoSansCJKkr-Medium; }
 
 #joelPicture { width: 400px; height: 400px; margin: auto; }
 
-#sideMenuBar { position: fixed; top: 65px; height: 90%; width: 300px; border-right: 2px solid black; background-color: black; }
+#sideMenuBar { position: fixed; top: 65px; height: 90%; width: 260px; border-right: 2px solid black; background-color: black; }
 
-#sideMenuBar ul li { list-style-type: none; color: white; padding: 20px; font-size: 20px; }
+.parentMenu { list-style-type: none; color: white; padding: 20px; font-size: 20px; }
 
-.childMenu li { font-size: 10px; }
+.childMenu li { font-size: 18px; list-style-type: none; color: white; }
 
 #postList { position: absolute; top: 100px; left: 400px; }
 

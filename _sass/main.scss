@@ -67,12 +67,12 @@ html, body {
     position : fixed;
     top: 65px;
     height : 90%;
-    width : 300px;
+    width : 260px;
     border-right: 2px solid black;
     background-color: black;
 }
 
-#sideMenuBar ul li{
+.parentMenu{
     list-style-type: none;
     color : white;
     padding : 20px;
@@ -80,7 +80,9 @@ html, body {
 }
 
 .childMenu li{
-    font-size : 10px;
+    font-size : 18px;
+    list-style-type: none;
+    color : white;
 }
 
 #postList{
