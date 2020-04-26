@@ -32,4 +32,6 @@ html, body { height: 100%; font-family: NotoSansCJKkr-Medium; }
 
 blockquote { display: block; background: #fff; margin: 0px 50px 0px 50px; padding: 30px 30px 30px 50px; position: relative; font-family: Georgia, serif; font-size: 18px; line-height: 1.2; color: #666; text-align: justify; border-left: 15px solid #c76c0c; border-right: 5px solid #c76c0c; -moz-box-shadow: 2px 2px 15px #ccc; -webkit-box-shadow: 2px 2px 15px #ccc; box-shadow: 2px 2px 15px #ccc; }
 
+.highlight { background: black; color: white; padding: 10px; }
+
 /*# sourceMappingURL=styles.css.map */
