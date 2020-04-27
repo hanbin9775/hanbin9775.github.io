@@ -1,41 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <title>Joel's Dev Blog!</title>
-</head>
-<body>
-    <header id="header">
-    <h3 id="blogTitle"><a href="/">Joel's Dev Blog (공사 중 ⚠)</a></h3>
-    <ul id="navMenu">
-        
-            <li>
-                <a href="/" class="navContent navContentHover" >
-                    Home
-                </a>
-            </li>
-        
-            <li>
-                <a href="/study.html" class="navContent navContentHover" >
-                    Study
-                </a>
-            </li>
-        
-            <li>
-                <a href="/staff.html" class="navContent navContentHover" >
-                    About Joel
-                </a>
-            </li>
-        
-    </ul>
-</header>
-    <br>
-<br>
-<br>
-<p>26 Apr 2020 - Joel</p>
-<div id="postStyle">
-    <h1 id="jekyll로-개인-블로그-만들기">Jekyll로 개인 블로그 만들기</h1>
+I"<h1 id="jekyll로-개인-블로그-만들기">Jekyll로 개인 블로그 만들기</h1>
 <p><br />
 <br />
 예전부터 본인이 공부한 것들을 꾸준히 블로그나 개인 웹사이트에 올리는 개발자들이 멋있어 보였다.</p>
@@ -182,15 +145,6 @@ Ruby, Ruby gems, jekyll을 설치하는 과정이다.</p>
 <br />
 <br /></p>
 
-<p>그리고 위는 _layout/default.html 페이지이다.</p>
-
-<p>include navigation.html 코드는 _include/navigation.html 페이지를 사용하겠다는 코드이고</p>
-
-<p>‘content’ 부분에 레이아웃으로 불러드린 페이지의 내용이 들어간다.</p>
-
-<p><br />
-<br /></p>
-
 <p>간단한 liquid 사용 예도 한번 살펴보자.</p>
 
 <p>다음은 포스팅마다 달아놓고 tag를 (e.g. front, back, algorithm) 카운트하는 liquid 구문이다.</p>
@@ -219,7 +173,4 @@ Jekyll을 사용해본 결과 공식 홈페이지에서 제공하는 튜토리�
 
 <p>앞으로도 더 멋진 블로그 운영을 위해 계속 공부해 볼만한 가치가 있는 툴인듯 하다.</p>
 
-
-</div>
-</body>
-</html>
+:ET

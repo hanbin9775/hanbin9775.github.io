@@ -9,8 +9,8 @@ html, body {
 }
 
 #header{
-    border-bottom : 1px solid black;
-    height: 65px;
+    border-bottom : 2px solid black;
+    height: 70px;
     position: fixed;
     top :0;
     width : 100%;
@@ -42,9 +42,24 @@ html, body {
     padding:0px 30px;
 }
 
-#navMenu li a{
-    color: black; 
+#navMenu .navContent{
+    padding: 8px 16px;
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#navMenu .navContentHover{
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+#navMenu .navContentHover:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .content {
@@ -93,7 +108,17 @@ html, body {
 
 #postStyle{
     position: relative;
-    padding: 0px 100px;
+    padding: 0% 20% 10% 20%;
+}
+
+.postContent {
+    list-style-type: none;
+    padding : 50px;
+}
+
+.postContent a{
+    text-decoration: none;
+    color : black;
 }
 
 blockquote {

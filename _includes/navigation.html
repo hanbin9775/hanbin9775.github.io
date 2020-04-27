@@ -3,7 +3,7 @@
     <ul id="navMenu">
         {% for item in site.data.navigation %}
             <li>
-                <a href="{{ item.link }}" {% if page.url == item.link %}style="color:gray"{% endif %}>
+                <a href="{{ item.link }}" class="navContent navContentHover" {% if page.url == item.link %}style="color:gray"{% endif %}>
                     {{ item.name }}
                 </a>
             </li>
