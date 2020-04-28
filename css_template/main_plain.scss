@@ -5,16 +5,16 @@
 
 html, body {
     height: 100%;
-    font-family : NotoSansCJKkr-Medium;
-    background-color : #EFEEEE;
+	font-family : NotoSansCJKkr-Medium
 }
 
 #header{
+    border-bottom : 2px solid black;
     height: 70px;
     position: fixed;
     top :0;
     width : 100%;
-    background-color : #EFEEEE;
+    background-color : #ffffff;
     z-index : 10;
 }
 
@@ -42,33 +42,22 @@ html, body {
     padding:0px 30px;
 }
 
-#navMenu li a{
+#navMenu .navContent{
     padding: 8px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    transition-duration: 0.4s;
     cursor: pointer;
-    border-radius: 50px;
-    background: #EFEEEE;
-    box-shadow:  5px 5px 10px #cbcaca, 
-             -5px -5px 10px #ffffff;
+    border-radius: 25px;
+    background-color: white;
     color: black;
+    border: 2px solid #555555;
 }
 
-#navMenu li a:hover{
-    border-radius: 50px;
-    background: linear-gradient(145deg, #d7d6d6, #ffffff);
-    box-shadow:  20px 20px 60px #cbcaca, 
-                 -20px -20px 60px #ffffff;
-}
-
-.clicked{
-    color : gray !important;
-    border-radius: 50px !important;
-    background: #EFEEEE !important;
-    box-shadow: inset 7px 7px 14px #cbcaca, 
-                inset -7px -7px 14px #ffffff !important;
+#navMenu .navContent:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .content {
@@ -118,30 +107,20 @@ html, body {
 
 #postStyle{
     position: relative;
-    padding : 5% 8% 10% 8%;
-    margin: 0% 15% 10% 15%;
-    border-radius: 50px;
-    background: #EFEEEE;
-    box-shadow:  20px 20px 60px #cbcaca, 
-             -20px -20px 60px #ffffff;
+    padding: 0% 20% 10% 20%;
 }
 
 .postContent {
     list-style-type: none;
     padding : 30px;
-    margin : 50px;
+    margin : 20px;
     cursor: pointer;
-    border-radius: 50px;
-    background: #EFEEEE;
-    box-shadow:  41px 41px 82px #cbcaca, 
-             -41px -41px 82px #ffffff;
+    border : 2px solid black;
+    border-radius: 25px;
 }
 
 .postContent:hover {
-    border-radius: 50px;
-    background: #EFEEEE;
-    box-shadow: inset 20px 20px 60px #cbcaca, 
-            inset -20px -20px 60px #ffffff;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .postContent a{
