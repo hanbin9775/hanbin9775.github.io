@@ -40,7 +40,7 @@ html, body { height: 100%; font-family: NotoSansCJKkr-Medium; background-color: 
 
 .postContent { list-style-type: none; padding: 30px; margin: 50px; cursor: pointer; border-radius: 14px; background: #EFEEEE; box-shadow: 5px 5px 10px #acabab,  -5px -5px 10px #ffffff; }
 
-.postContent:hover { border-radius: 14px; background: linear-gradient(145deg, #d7d6d6, #ffffff); box-shadow: 5px 5px 10px #acabab,  -5px -5px 10px #ffffff; }
+.postContent:hover { border-radius: 14px; background: #EFEEEE; box-shadow: inset 5px 5px 10px #cbcaca,  inset -5px -5px 10px #ffffff; }
 
 .postContent a { text-decoration: none; color: black; }
 

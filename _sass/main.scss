@@ -135,9 +135,9 @@ html, body {
     padding : 5% 8% 10% 8%;
     margin: 0% 15% 10% 15%;
     border-radius: 14px;
-background: #EFEEEE;
-box-shadow:  5px 5px 10px #acabab, 
-             -5px -5px 10px #ffffff;
+    background: #EFEEEE;
+    box-shadow:  5px 5px 10px #acabab, 
+                -5px -5px 10px #ffffff;
 }
 
 .postContent {
@@ -153,9 +153,9 @@ box-shadow:  5px 5px 10px #acabab,
 
 .postContent:hover {
     border-radius: 14px;
-    background: linear-gradient(145deg, #d7d6d6, #ffffff);
-    box-shadow:  5px 5px 10px #acabab, 
-                 -5px -5px 10px #ffffff;
+    background: #EFEEEE;
+    box-shadow: inset 5px 5px 10px #cbcaca, 
+            inset -5px -5px 10px #ffffff;
 }
 
 .postContent a{
