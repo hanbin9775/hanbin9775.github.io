@@ -15,6 +15,7 @@ html, body {
     top :0;
     width : 100%;
     z-index : 10;
+    background-color: #dad8d8;
 }
 
 
@@ -49,25 +50,24 @@ html, body {
     font-size: 16px;
     cursor: pointer;
     border-radius: 50px;
-    background: #EFEEEE;
-    box-shadow:  5px 5px 10px #cbcaca, 
+    background: #dad8d8;
+    box-shadow:  5px 5px 10px #969595, 
              -5px -5px 10px #ffffff;
     color: black;
 }
 
 #navMenu li a:hover{
     border-radius: 50px;
-    background: linear-gradient(145deg, #d7d6d6, #ffffff);
-    box-shadow:  20px 20px 60px #cbcaca, 
-                 -20px -20px 60px #ffffff;
+    background: linear-gradient(145deg, #c4c2c2, #e9e7e7);
+    box-shadow:  5px 5px 10px #969595, 
+             -5px -5px 10px #ffffff;
 }
 
 .clicked{
-    color : gray !important;
     border-radius: 50px !important;
-    background: #EFEEEE !important;
-    box-shadow: inset 7px 7px 14px #cbcaca, 
-                inset -7px -7px 14px #ffffff !important;
+    background: #dad8d8 !important;
+    box-shadow: inset 5px 5px 10px #969595, 
+            inset -5px -5px 10px #ffffff !important;
 }
 
 .content {
@@ -77,7 +77,7 @@ html, body {
 #mainSection{
     display: flex;
     height: 85%;
-    background-color: #ffffff;
+    background-color: #EFEEEE;
 }
 
 #joelPicture{
@@ -107,7 +107,7 @@ html, body {
     list-style-type: none;
     color : black;
     padding : 10px;
-    margin : 20px;
+    margin : 10px 20px;
     font-size: 20px;
     font-weight: bold;
     
@@ -115,12 +115,27 @@ html, body {
 
 .childMenu{
     padding-left : 100px !important;
+    text-align: center;
 }
 
 .childMenu li{
     font-size : 18px;
+    margin : 15px 0px;
+    padding : 5px 0px;
     list-style-type: none;
+    border-radius: 34px;
+    background: #EFEEEE;
+    box-shadow:  6px 6px 11px #a5a4a4, 
+             -6px -6px 11px #ffffff;
     color : black;
+    cursor: pointer;
+}
+
+.childMenu li:hover{
+    border-radius: 34px;
+    background: linear-gradient(145deg, #d7d6d6, #ffffff);
+    box-shadow:  6px 6px 11px #a5a4a4, 
+             -6px -6px 11px #ffffff;
 }
 
 #postList{
