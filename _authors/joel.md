@@ -5,6 +5,11 @@ position: Web Developer
 ---
 Joel is web programmer based in South Korea.
 
+g-mail : dnffkrktyd@gmail.com
+
+instagram : sadjoelhappyjoel
+
+
 ## 약력
 
 2015.02 ~ 경희대학교 컴퓨터공학과 재학 (디지털 콘텐츠학과 복수전공)
