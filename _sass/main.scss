@@ -141,14 +141,15 @@ html, body {
 #postList{
     position : absolute;
     top: 100px;
-    left: 400px;
-    
+    left: 35%;
+    width : 70%;
 }
 
 #postStyle{
-    position: relative;
     padding : 5% 8% 10% 8%;
-    margin: 0% 15% 10% 15%;
+    margin : 0 auto;
+    margin-bottom: 10%;
+    max-width: 680px;
     border-radius: 14px;
     background: #EFEEEE;
     box-shadow:  5px 5px 10px #acabab, 
@@ -158,7 +159,7 @@ html, body {
 .postContent {
     list-style-type: none;
     padding : 30px;
-    width : 70%;
+    min-width : 70%;
     margin : 50px;
     cursor: pointer;
     border-radius: 14px;
