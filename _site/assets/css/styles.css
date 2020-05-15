@@ -36,7 +36,7 @@ html, body { height: 100%; font-family: NotoSansCJKkr-Medium; background-color: 
 
 .childMenu li:hover { border-radius: 34px; background: linear-gradient(145deg, #d7d6d6, #ffffff); box-shadow: 6px 6px 11px #a5a4a4,  -6px -6px 11px #ffffff; }
 
-#postList { position: absolute; top: 100px; left: 35%; width: 70%; }
+#postList { position: absolute; top: 100px; left: 25%; width: 70%; }
 
 #postStyle { padding: 5% 8% 10% 8%; margin: 0 auto; margin-bottom: 10%; max-width: 680px; border-radius: 14px; background: #EFEEEE; box-shadow: 5px 5px 10px #acabab,  -5px -5px 10px #ffffff; }
 
