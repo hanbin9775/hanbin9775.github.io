@@ -38,7 +38,7 @@ html, body { height: 100%; font-family: NotoSansCJKkr-Medium; background-color: 
 
 #postList { position: absolute; top: 100px; left: 25%; width: 70%; }
 
-#postStyle { padding: 5% 8% 10% 8%; margin: 0 auto; margin-bottom: 10%; max-width: 680px; border-radius: 14px; background: #EFEEEE; box-shadow: 5px 5px 10px #acabab,  -5px -5px 10px #ffffff; }
+#postStyle { padding: 5% 8% 10% 8%; margin: 0 auto; margin-bottom: 10%; line-height: 180%; max-width: 680px; border-radius: 14px; background: #EFEEEE; box-shadow: 5px 5px 10px #acabab,  -5px -5px 10px #ffffff; }
 
 .postContent { list-style-type: none; padding: 30px; min-width: 70%; margin: 50px; cursor: pointer; border-radius: 14px; background: #EFEEEE; box-shadow: 5px 5px 10px #acabab,  -5px -5px 10px #ffffff; }
 
