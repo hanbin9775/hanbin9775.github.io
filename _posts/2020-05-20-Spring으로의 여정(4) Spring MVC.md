@@ -6,7 +6,14 @@ tag : back
 
 Spring MVC
 ==========
+<br>
+<br>
+> 이 글은 '부스트코스'의 강의 내용의 흐름을 따라가며 작성했음을 미리 밝힙니다.
 
+<br>
+<br>
+<br>
+<br>
 Model, View, Controller의 약자. 어플리케이션을 세가지의 역할로 구분한 디자인 패턴이다.
 
 Model은 어플리케이션에서 실질적으로 사용할 데이터다. 
@@ -21,7 +28,7 @@ Spring의 모듈 중 하나인 Web 모듈에는 MVC 디자인 패턴이 구현�
 
 <br>
 <br>
-## Spring MVC 구조
+## 구조
 <br>
 <br>
 ![Alt text](../../../assets/img/2020-05-20/SpringMVC.jpg){: width="70%" height="70%"}
@@ -38,3 +45,15 @@ Spring MVC는 위와 같은 구조를 가진다.
 4. 프론트 컨트롤러는 알맞은 뷰에게 모델을 전달한다.
 5. 뷰에서 처리한 결과를 프론트 컨트롤러를 통해 클라이언트로 다시 내보낸다. 
 
+<br>
+<br>
+## 구현
+<br>
+<br>
+Spring MVC의 구성 요소들을 직접 구현해보자.
+
+<br>
+### FrontController
+<br>
+
+FrontController는 DispatcherServlet으로 구현한다.
