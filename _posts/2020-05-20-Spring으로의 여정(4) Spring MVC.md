@@ -30,7 +30,6 @@ Spring의 모듈 중 하나인 Web 모듈에는 MVC 디자인 패턴이 구현�
 <br>
 ## 구조
 <br>
-<br>
 ![Alt text](../../../assets/img/2020-05-20/SpringMVC.jpg){: width="70%" height="70%"}
 <br>
 <br>
@@ -49,11 +48,20 @@ Spring MVC는 위와 같은 구조를 가진다.
 <br>
 ## 구현
 <br>
-<br>
 Spring MVC의 구성 요소들을 직접 구현해보자.
 
 <br>
 ### FrontController
 <br>
 
-FrontController는 DispatcherServlet으로 구현한다.
+Spring MVC에서 FrontController의 역할을 하는 DispatcherServlet을 제공한다. 
+
+제일 먼저 해야할 것은 DispatcherServlet을 FrontController로 등록하는 일이다. 등록하는 방법은 3가지가 존재한다.
+
+<br>
+
+1. web.xml 파일에서 설정
+2. ServletContainerInitializer를 구현하는 클래스를 이용해서 설정
+3. WebApplicationInitializer 인터페이스를 구현하는 방법
+
+
