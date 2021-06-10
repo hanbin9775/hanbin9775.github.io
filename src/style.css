@@ -16,3 +16,8 @@ body {
   padding: 1rem;
   box-sizing: border-box;
 }
+
+.header {
+  border-bottom: 1px solid black;
+  padding: 0.5rem;
+}
