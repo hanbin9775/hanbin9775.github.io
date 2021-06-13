@@ -25,6 +25,6 @@ export default function TwoInRow({ $app, leftContent, rightContent }) {
   const activity = new Activity({
     $app: $content,
     title: rightContent.title,
-    actvities: rightContent.actvities,
+    activities: rightContent.activities,
   });
 }

@@ -58,13 +58,63 @@ export default function App($app) {
         },
         {
           type: "small",
-          leftText: "16.01-18.01",
+          leftText: "2016-18",
           rightText: "공군 760기 복무",
         },
         {
           type: "big",
-          leftText: "2017",
+          leftText: "2018",
           rightText: "",
+        },
+        {
+          type: "small",
+          leftText: "6-12",
+          rightText: "대학생 연합 게임 개발 동아리 Bridge 활동",
+        },
+        {
+          type: "big",
+          leftText: "2019",
+          rightText: "",
+        },
+        {
+          type: "small",
+          leftText: "1-6",
+          rightText: "알코홀릭-술게임 App 개발 참여.",
+        },
+        {
+          type: "small",
+          leftText: "6-7",
+          rightText: "트라이캐치미디어 웹개발 인턴",
+        },
+        {
+          type: "small",
+          leftText: "12-2",
+          rightText: "스테이지파이브 웹개발 인턴",
+        },
+        {
+          type: "big",
+          leftText: "2020",
+          rightText: "",
+        },
+        {
+          type: "small",
+          leftText: "9-12",
+          rightText: "(주)아이젠 웹개발 인턴",
+        },
+        {
+          type: "small",
+          leftText: "12-4",
+          rightText: "Naver Corp 인턴쉽",
+        },
+        {
+          type: "big",
+          leftText: "2021",
+          rightText: "",
+        },
+        {
+          type: "small",
+          leftText: "3-ing",
+          rightText: "Toy Project, Coincidence 개발 중",
         },
       ],
     },
