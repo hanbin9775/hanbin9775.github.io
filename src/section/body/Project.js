@@ -6,8 +6,9 @@ export default function Project({ $app, title, projects }) {
   $content.innerHTML = `
     <div class="contentTitle">${title}</div>
 
-    ${projects.map((project) => {
-      return `
+    ${projects
+      .map((project) => {
+        return `
         <div class="projectTitle">
 					${project.title}
 					<span class="projectDuration">${" | " + project.duration}</span>
@@ -18,7 +19,8 @@ export default function Project({ $app, title, projects }) {
         )}</span></div>
 				<div class="projectIndent">성과 : <span class="projectStacks">${project.accomplishment}</span></div>
         `;
-    })}
+      })
+      .join("")}
   `;
 
   $app.appendChild($content);

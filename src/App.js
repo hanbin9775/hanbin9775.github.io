@@ -38,7 +38,15 @@ export default function App($app) {
         "OAuth2.0",
         "C++(PS)",
       ],
-      knowleadgables: ["Node.js", "React Native", "AWS Lambda", "AWS ApiGateway", "Java", "Spring"],
+      knowleadgables: [
+        "Node.js",
+        "React Native",
+        "AWS Lambda",
+        "AWS ApiGateway",
+        "Firebase",
+        "Java",
+        "Spring",
+      ],
     },
     rightContent: {
       title: "활동",
@@ -135,6 +143,16 @@ export default function App($app) {
         또한, 분석이 이루어진 페이지 결과를 남들과 공유할 수 있게끔 url을 설계하였음. 
         페이지 접근 시 외부인원 접근 제한 및 사용자 신원 확인을 목적으로 사내에서 제공하는 OAuth2.0 프로토콜을 사용해 로그인 기능을 구현하였음.`,
         techStacks: ["Vue.js", "Node.js", "Vuex", "Chart.js", "OAuth2.0"],
+        accomplishment: "인턴 근무 연장 및 정직원 전환 제안",
+      },
+      {
+        title: "(주) 아이젠 웹 개발 인턴근무",
+        duration: "2020.09-2020.12",
+        description: `본인의 창고를 임대하거나 등록된 창고를 대여하는 서비스를 제공하는 플랫폼을 개발. 
+        웹/모바일을 모두 지원하는 플랫폼이며, 웹/모바일 각각 React/React Native로 개발함. 
+        웹 플 랫폼의 이용약관, 문의하기, 창고 조회, 예약 정보 조회 페이지를 구현함. 
+        모바일 플랫폼의 정산, 창고 내용 상세, 창고 조회 페이지를 구현함.`,
+        techStacks: ["React.js", "React Native", "Node.js", "Firebase Functions"],
         accomplishment: "인턴 근무 연장 및 정직원 전환 제안",
       },
     ],
