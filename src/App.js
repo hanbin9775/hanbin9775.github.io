@@ -1,5 +1,6 @@
 import Header from "./section/header/Header.js";
 import TwoInRow from "./section/body/TwoInRow.js";
+import Project from "./section/body/Project.js";
 
 export default function App($app) {
   const $content = document.createElement("div");
@@ -32,6 +33,7 @@ export default function App($app) {
         "Typescript",
         "Vue.js",
         "React.js",
+        "Styled Component",
         "SVG",
         "OAuth2.0",
         "C++(PS)",
@@ -118,5 +120,23 @@ export default function App($app) {
         },
       ],
     },
+  });
+
+  const carrer = new Project({
+    $app: $content,
+    title: "경력",
+    projects: [
+      {
+        title: "Naver Corp 인턴쉽",
+        duration: "2020.12-2021.04",
+        description: `검색 데이터 품질 분석 및 모니터링 툴 프론트엔드 개발. 
+        분석 결과를 모니터링한다는 목적에 맞게 dashboard 형태로 구현하였음. 분석 결과를 컴포넌트화한 위젯 형태의 컨테이너에 담아 표현함. 
+        효과적인 정보 전달을 위해 chart.js 라이브러리를 사용해 데이터를 시각화. 
+        또한, 분석이 이루어진 페이지 결과를 남들과 공유할 수 있게끔 url을 설계하였음. 
+        페이지 접근 시 외부인원 접근 제한 및 사용자 신원 확인을 목적으로 사내에서 제공하는 OAuth2.0 프로토콜을 사용해 로그인 기능을 구현하였음.`,
+        techStacks: ["Vue.js", "Node.js", "Vuex", "Chart.js", "OAuth2.0"],
+        accomplishment: "인턴 근무 연장 및 정직원 전환 제안",
+      },
+    ],
   });
 }
