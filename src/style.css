@@ -28,7 +28,7 @@ body {
   flex-direction: column;
   gap: 0.5em;
   justify-content: center;
-  padding: 0.5em 0;
+  padding-bottom: 0.5em;
 }
 
 .krName {
@@ -49,8 +49,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 0.5em 0;
+  padding-bottom: 0.5em;
   gap: 0.2em;
+  font-size: 0.9em;
+  margin-right: 6%;
 }
 
 .cake_icon {
@@ -137,7 +139,7 @@ body {
 
 .verticalLine {
   position: absolute;
-  left: calc(20% + 8px);
+  left: calc(23%);
   top: 6px;
   width: 1px;
   height: calc(100% - 11px);
