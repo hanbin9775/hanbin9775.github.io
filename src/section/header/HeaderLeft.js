@@ -4,11 +4,11 @@ export default function HeaderLeft({ $app, koreanName, englishName, job }) {
 
   $headerLeft.innerHTML = `
     <div>
-        <span class="krName">${koreanName}</span> 
-        <span class="enName">(${englishName})</span>
+      <span class="krName">${koreanName}</span> 
+      <span class="enName">(${englishName})</span>
     </div>
     <div>
-        <span class="jobName">${job}</span>
+      <span class="jobName">${job}</span>
     </div>
   `;
 

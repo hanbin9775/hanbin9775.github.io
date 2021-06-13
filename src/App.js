@@ -1,5 +1,5 @@
 import Header from "./section/header/Header.js";
-// import EducationAndCarrer from "./section/body/EducationAndCarrer.js";
+import TwoInRow from "./section/body/TwoInRow.js";
 
 export default function App($app) {
   const $content = document.createElement("div");
@@ -18,6 +18,55 @@ export default function App($app) {
     githubUrl: "https://github.com/hanbin9775",
   });
 
-  //Education and Carrer Section
-  // const educationAndCarrer = new EducationAndCarrer({ $app: $content });
+  //Body
+  //Intro and Activity Section in a Row
+  const introAndActivity = new TwoInRow({
+    $app: $content,
+    leftContent: {
+      title: "소개",
+      education: "경희대학교 컴퓨터공학과 (2015.03 - 2022.02)",
+      strengths: [
+        "HTML",
+        "CSS",
+        "JS(ES5+)",
+        "Typescript",
+        "Vue.js",
+        "React.js",
+        "SVG",
+        "OAuth2.0",
+        "C++(PS)",
+      ],
+      knowleadgables: ["Node.js", "React Native", "AWS Lambda", "AWS ApiGateway", "Java", "Spring"],
+    },
+    rightContent: {
+      title: "활동",
+      activities: [
+        {
+          type: "big",
+          leftText: "2015",
+          rightText: "",
+        },
+        {
+          type: "small",
+          leftText: "3-12",
+          rightText: "교내 개발동아리 T.G Wing 활동",
+        },
+        {
+          type: "big",
+          leftText: "2016",
+          rightText: "",
+        },
+        {
+          type: "small",
+          leftText: "16.01-18.01",
+          rightText: "공군 760기 복무",
+        },
+        {
+          type: "big",
+          leftText: "2017",
+          rightText: "",
+        },
+      ],
+    },
+  });
 }

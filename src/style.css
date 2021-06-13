@@ -94,3 +94,39 @@ body {
   text-decoration: none;
   color: black;
 }
+
+.twoInRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.contentTitle {
+  border-bottom: 1px solid black;
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.contentBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  width: 100%;
+  font-size: 0.8em;
+}
+
+.techSkillBlock {
+  display: flex;
+  margin-left: 2em;
+  gap: 0.5em;
+}
+
+.techSubtitle {
+  font-size: 0.7em;
+}
+
+.skills {
+  font-size: 0.5em;
+  color: gray;
+}
