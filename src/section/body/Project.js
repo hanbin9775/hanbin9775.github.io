@@ -14,16 +14,23 @@ export default function Project({ $app, title, projects }) {
 					<span class="projectDuration">${" | " + project.duration}</span>
 				</div>
 				<div class="projectDescription">${project.description}</div>
-				<div class="projectIndent">기술 스택 : <span class="projectStacks">${project.techStacks.join(
-          " / "
-        )}</span></div>
+				<div class="projectIndent">기술 스택 <span class="projectStacks">${
+          " | " + project.techStacks.join(" / ")
+        }</span></div>
 				${
           project.accomplishment
             ? `
             <div class="projectIndent">
-              성과 : <span class="projectStacks">${project.accomplishment}</span>
+              성과 <span class="projectStacks">${" | " + project.accomplishment}</span>
             </div>
           `
+            : ""
+        }
+				${
+          project.githubRepo
+            ? ` <div class="projectIndent">
+					github repo <span class="projectStacks">${" | " + project.githubRepo}</span>
+				</div>`
             : ""
         } 
         `;

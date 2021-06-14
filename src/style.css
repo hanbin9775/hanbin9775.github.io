@@ -4,26 +4,46 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0;
-  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 #app {
+  margin: 10px 0;
   border-radius: 4px;
   background: #e0e0e0;
   box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
-  width: calc(210 / 297 * (100vh - 40px));
-  height: calc(100vh - 40px);
+  width: calc(210 / 297 * (1010px));
+  /* height: calc(100vh - 40px); */
   padding: 1rem;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 560px) {
+  #app {
+    width: 100%;
+    box-shadow: none;
+  }
+  .header {
+    flex-direction: column;
+  }
+  .twoInRow {
+    flex-direction: column;
+  }
 }
 
 .header {
   border-bottom: 1px solid black;
   display: flex;
   justify-content: space-between;
+  gap: 1em;
 }
 
 .headerLeft {
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
@@ -32,27 +52,27 @@ body {
 }
 
 .krName {
-  font-size: 2em;
+  font-size: 32px;
   font-weight: 500;
 }
 
 .enName {
-  font-size: 1.5em;
+  font-size: 24px;
   font-weight: 500;
 }
 
 .jobName {
-  font-size: 1.2em;
+  font-size: 18px;
 }
 
 .headerRight {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-bottom: 0.5em;
   gap: 0.2em;
-  font-size: 0.9em;
-  margin-right: 6%;
+  font-size: 16px;
 }
 
 .cake_icon {
@@ -92,14 +112,8 @@ body {
   align-items: center;
 }
 
-.headerRight a {
-  text-decoration: none;
-  color: black;
-}
-
 .twoInRow {
   display: flex;
-  justify-content: space-between;
   gap: 1em;
   margin-top: 1em;
 }
@@ -125,7 +139,7 @@ body {
 }
 
 .techSubtitle {
-  font-size: 0.7em;
+  font-size: 0.9em;
 }
 
 .skills {
@@ -208,6 +222,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.2em;
+  margin-bottom: 1em;
 }
 
 .projectTitle {
