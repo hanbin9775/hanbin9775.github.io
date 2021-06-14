@@ -146,14 +146,25 @@ export default function App($app) {
         accomplishment: "인턴 근무 연장 및 정직원 전환 제안",
       },
       {
-        title: "(주) 아이젠 웹 개발 인턴근무",
+        title: "(주)아이젠 웹 개발 인턴",
         duration: "2020.09-2020.12",
         description: `본인의 창고를 임대하거나 등록된 창고를 대여하는 서비스를 제공하는 플랫폼을 개발. 
         웹/모바일을 모두 지원하는 플랫폼이며, 웹/모바일 각각 React/React Native로 개발함. 
         웹 플 랫폼의 이용약관, 문의하기, 창고 조회, 예약 정보 조회 페이지를 구현함. 
         모바일 플랫폼의 정산, 창고 내용 상세, 창고 조회 페이지를 구현함.`,
         techStacks: ["React.js", "React Native", "Node.js", "Firebase Functions"],
-        accomplishment: "인턴 근무 연장 및 정직원 전환 제안",
+        accomplishment: `웹 : <a href="https://myzzym.com/">https://myzzym.com/ </a>
+        앱 : <a href="https://play.google.com/store/apps/details?id=com.myzzymcp">https://play.google.com/store/apps/details?id=com.myzzymcp </a>
+        `,
+      },
+      {
+        title: "스테이지파이브 웹 개발 인턴",
+        duration: "2019.12-2020.02",
+        description: `외부인의 기업 안내를 맡는 키오스크 웹 어플리케이션 개발. 
+        첫 화면에서 방문 목적을 선택하고, 담당자 혹은 특정 사내 근무자를 호출할 수 있는 기능을 구현. 
+        AWS Lambda, API Gateway 를 활용한 서버리스 아키텍쳐에서 사내 근무자 목록을 조회하는 HTTP API 호출하도록 구현.
+        근무자 호출 기능은 사내 알림 서비스 API를 연동하여 구현하였음.`,
+        techStacks: ["Vue.js", "Node.js", "AWS API Gateway", "AWS Lambda", "JWT"],
       },
     ],
   });

@@ -17,7 +17,15 @@ export default function Project({ $app, title, projects }) {
 				<div class="projectIndent">기술 스택 : <span class="projectStacks">${project.techStacks.join(
           " / "
         )}</span></div>
-				<div class="projectIndent">성과 : <span class="projectStacks">${project.accomplishment}</span></div>
+				${
+          project.accomplishment
+            ? `
+            <div class="projectIndent">
+              성과 : <span class="projectStacks">${project.accomplishment}</span>
+            </div>
+          `
+            : ""
+        } 
         `;
       })
       .join("")}
