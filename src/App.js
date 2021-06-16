@@ -144,7 +144,7 @@ export default function App($app) {
         duration: "2020.12-2021.04",
         description: `검색 데이터 품질 분석 및 모니터링 툴 프론트엔드 개발. 
         분석 결과를 모니터링한다는 목적에 맞게 dashboard 형태로 구현하였음. 분석 결과를 컴포넌트화한 위젯 형태의 컨테이너에 담아 표현함. 
-        효과적인 정보 전달을 위해 chart.js 라이브러리를 사용해 데이터를 시각화. 
+        효과적인 정보 전달을 위해 chart.js 라이브러리를 사용해 데이터를 시각화하였음. 
         또한, 분석이 이루어진 페이지 결과를 남들과 공유할 수 있게끔 url을 설계하였음. 
         페이지 접근 시 외부인원 접근 제한 및 사용자 신원 확인을 목적으로 사내에서 제공하는 OAuth2.0 프로토콜을 사용해 로그인 기능을 구현하였음.`,
         techStacks: ["Vue.js", "Node.js", "Vuex", "Chart.js", "OAuth2.0"],
@@ -203,12 +203,12 @@ export default function App($app) {
       },
       {
         title: "Web Resume",
-        duration: "2021.06.13-16",
+        duration: "2021.06.12-16",
         description: `본인 이력서 웹사이트. 웹에서 조회가능하게끔 github page 기능 사용. 재사용성 및 확장성을 고려하여 이력서 구성 요소들을 js module로 구현.
         각 요소에 해당하는 값들은 최상위 모듈인 App.js에 객체 형태로 넣어주면 되게끔 구현. 
         pc, mobile browser 모두 지원.`,
         techStacks: ["Javascript module", "HTML", "CSS", "Github Page"],
-        accomplishment: `https://hanbin9775.github.io/`,
+        accomplishment: `<a target="blank" href="https://hanbin9775.github.io/">https://hanbin9775.github.io/</a>`,
         githubRepo: `<a target="blank" href="https://github.com/hanbin9775/hanbin9775.github.io">https://github.com/hanbin9775/hanbin9775.github.io</a>`,
       },
     ],
