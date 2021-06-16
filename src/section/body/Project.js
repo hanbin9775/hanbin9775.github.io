@@ -30,7 +30,7 @@ export default function Project({ $app, title, projects }) {
           project.githubRepo
             ? ` 
 				<div class="projectIndent">
-					github repo 
+					Github Repo 
 					<span class="projectStacks">${" | " + project.githubRepo}</span>
 				</div>`
             : ""

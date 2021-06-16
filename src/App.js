@@ -195,7 +195,7 @@ export default function App($app) {
         description: `‘AI’에 관한 모든 주제라는 해커톤의 주제를 만족하기 위해 Google Teachable Machine 오픈소스를 이용한 리듬 게임 웹 어플리케이션을 개발. 
         음악을 선택하는 화면에서 Styled-components와 keyframe을 이용하여 음악 목록이 자연스럽게 바뀌도록 구현. 
         음악 목록에서 음악을 선택하면 인게임 화면으로 넘어감. 인게임 화면은 ‘Just Dance’ 게임 화면 영상, 포즈 판정 부분, 다음에 취할 포즈를 보여주는 부분으로 이루어져 있음. 
-        Google Teachable Machine을 이용해서 포즈들을 학습시킴. 일정한 타이밍마다 학습시킨 포즈를 정확히 취할 경우 점수가 올라갑니다. 게임이 끝나면 배점을 통해 자신의 결과가 결과 페이지에 보임. 
+        Google Teachable Machine을 이용해서 포즈들을 학습시킴. 일정한 타이밍마다 학습시킨 포즈를 정확히 취할 경우 점수가 올라감. 게임이 끝나면 배점을 통해 자신의 결과가 결과 페이지에 보임. 
         결과는 닉네임을 입력해 저장하면 Firebase에 저장되며, 이는 실시간으로 랭킹에 업데이트됨.`,
         techStacks: ["React.js", "Node.js", "Teachable Machine", "Firebase Store"],
         accomplishment: `대상 수상 <a href="https://www.youtube.com/watch?v=BXyxNx0uqLU">https://www.youtube.com/watch?v=BXyxNx0uqLU</a>`,
@@ -204,7 +204,8 @@ export default function App($app) {
       {
         title: "Web Resume",
         duration: "2021.06.13-16",
-        description: `본인 이력서 웹사이트. 웹에서 조회가능하게끔 github page 기능 사용. 재사용성 및 확장성을 고려하여 이력서 구성 요소들을 js module로 구현. 
+        description: `본인 이력서 웹사이트. 웹에서 조회가능하게끔 github page 기능 사용. 재사용성 및 확장성을 고려하여 이력서 구성 요소들을 js module로 구현.
+        각 요소에 해당하는 값들은 최상위 모듈인 App.js에 객체 형태로 넣어주면 되게끔 구현. 
         pc, mobile browser 모두 지원.`,
         techStacks: ["Javascript module", "HTML", "CSS", "Github Page"],
         githubRepo: `<a target="blank" href="https://github.com/hanbin9775/hanbin9775.github.io">https://github.com/hanbin9775/hanbin9775.github.io</a>`,

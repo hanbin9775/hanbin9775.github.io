@@ -143,8 +143,10 @@ a {
 }
 
 .skills {
-  font-size: 0.5em;
-  color: gray;
+  font-size: 10px;
+  background-color: rgb(210, 210, 210);
+  padding: 2px;
+  border-radius: 5px;
 }
 
 .activityGraph {
@@ -228,6 +230,7 @@ a {
 .projectTitle {
   margin-top: 12px;
   font-size: 16px;
+  font-weight: 500;
 }
 
 .projectDuration {
@@ -238,6 +241,10 @@ a {
 .projectDescription {
   font-size: 12px;
   font-weight: 400;
+  background-color: rgb(210, 210, 210);
+
+  padding: 4px;
+  border-radius: 4px;
 }
 
 .projectIndent {
