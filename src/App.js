@@ -208,6 +208,7 @@ export default function App($app) {
         각 요소에 해당하는 값들은 최상위 모듈인 App.js에 객체 형태로 넣어주면 되게끔 구현. 
         pc, mobile browser 모두 지원.`,
         techStacks: ["Javascript module", "HTML", "CSS", "Github Page"],
+        accomplishment: `https://hanbin9775.github.io/`,
         githubRepo: `<a target="blank" href="https://github.com/hanbin9775/hanbin9775.github.io">https://github.com/hanbin9775/hanbin9775.github.io</a>`,
       },
     ],
