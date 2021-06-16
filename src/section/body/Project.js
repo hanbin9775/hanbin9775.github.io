@@ -28,8 +28,10 @@ export default function Project({ $app, title, projects }) {
         }
 				${
           project.githubRepo
-            ? ` <div class="projectIndent">
-					github repo <span class="projectStacks">${" | " + project.githubRepo}</span>
+            ? ` 
+				<div class="projectIndent">
+					github repo 
+					<span class="projectStacks">${" | " + project.githubRepo}</span>
 				</div>`
             : ""
         } 

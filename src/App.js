@@ -184,7 +184,6 @@ export default function App($app) {
         description: `사용자의 나이, 최근 7년 동안 좋고 나쁨을 표현한 그래프를 입력받아 가장 유사한 형태의 그래프의 코인을 찾아주는 웹 서비스 개발 중.
         Lint, Prettier로 코드 컨벤션부터, element 컴포넌트화, typescript로 변수 타입 제어, svg를 코드단에서 제어해 그래프 형태 그리기,
         context api로 전역 상태 제어, firebase deploy로 배포까지 프로젝트를 진행하면서 발생하는 이슈들을 github issue로 기록하며 개발 진행 중.
-        개발은 본인 혼자서 담당.
         `,
         techStacks: ["React.js", "Node.js", "SVG", "Cross-Device", "Firebase Deploy"],
         accomplishment: `<a target="blank" href="https://simple-website-9b56c.web.app/">https://simple-website-9b56c.web.app/</a> `,
@@ -201,6 +200,14 @@ export default function App($app) {
         techStacks: ["React.js", "Node.js", "Teachable Machine", "Firebase Store"],
         accomplishment: `대상 수상 <a href="https://www.youtube.com/watch?v=BXyxNx0uqLU">https://www.youtube.com/watch?v=BXyxNx0uqLU</a>`,
         githubRepo: `<a target="blank" href="https://github.com/1Seok2/khu-thon-2020">https://github.com/1Seok2/khu-thon-2020</a>`,
+      },
+      {
+        title: "Web Resume",
+        duration: "2021.06.13-16",
+        description: `본인 이력서 웹사이트. 웹에서 조회가능하게끔 github page 기능 사용. 재사용성 및 확장성을 고려하여 이력서 구성 요소들을 js module로 구현. 
+        pc, mobile browser 모두 지원.`,
+        techStacks: ["Javascript module", "HTML", "CSS", "Github Page"],
+        githubRepo: `<a target="blank" href="https://github.com/hanbin9775/hanbin9775.github.io">https://github.com/hanbin9775/hanbin9775.github.io</a>`,
       },
     ],
   });
