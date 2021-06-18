@@ -11,3 +11,4 @@
 - [x] 나중에 경력이 추가될 수 있으므로 확장성 고려. module structure 사용
 - [x] cross browsing 지원. (firefox, chrome)
 - [x] mobile browser 지원
+- [] webpack으로 번들링해보기.(SCSS를 적용해보자)
