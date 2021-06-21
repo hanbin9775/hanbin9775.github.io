@@ -1,0 +1,24 @@
+{
+  "name": "hanbin9775.github.io",
+  "version": "1.0.0",
+  "description": "본인의 경력과 경험을 잘 표현할 수 있는 웹 이력서를 만들어보자. 추가로 프론트엔드 개발자의 역량도 함께 보여줄 수 있는 이력서를 만들어 볼 것이다.",
+  "private": "true",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^5.39.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanbin9775/hanbin9775.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanbin9775/hanbin9775.github.io/issues"
+  },
+  "homepage": "https://github.com/hanbin9775/hanbin9775.github.io#readme"
+}
