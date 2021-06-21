@@ -1,4 +1,5 @@
 import App from "./App.js";
+import "./style.css";
 
 try {
   const $app = document.querySelector("#app");
