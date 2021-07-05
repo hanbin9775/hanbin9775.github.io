@@ -1,0 +1,264 @@
+$main-color: #e0e0e0;
+
+body {
+  background: $main-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#app {
+  margin: 10px 0;
+  border-radius: 4px;
+  background: $main-color;
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+  width: calc(210 / 297 * (1010px));
+  /* height: calc(100vh - 40px); */
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 560px) {
+  #app {
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+  .twoInRow {
+    flex-direction: column;
+  }
+}
+
+.header {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+
+  .headerLeft {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    justify-content: center;
+    padding-bottom: 0.5em;
+
+    .krName {
+      font-size: 32px;
+      font-weight: 500;
+    }
+
+    .enName {
+      font-size: 24px;
+      font-weight: 500;
+    }
+
+    .jobName {
+      font-size: 18px;
+    }
+  }
+
+  .headerRight {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 0.5em;
+    gap: 0.2em;
+    font-size: 16px;
+
+    div {
+      display: flex;
+      gap: 0.5em;
+      align-items: center;
+    }
+
+    .cake_icon {
+      width: 18px;
+      height: 22px;
+      transform: scale(0.8);
+      background: url(./assests/svg/cake_icon.svg);
+    }
+
+    .phone_icon {
+      width: 18px;
+      height: 18px;
+      transform: scale(0.8);
+      background-repeat: no-repeat;
+      background: url(./assests/svg/phone_icon.svg);
+    }
+
+    .email_icon {
+      width: 20px;
+      height: 16px;
+      transform: scale(0.8);
+      background-repeat: no-repeat;
+      background: url(./assests/svg/email_icon.svg);
+    }
+
+    .github_icon {
+      width: 20px;
+      height: 20px;
+      transform: scale(0.8);
+      background-repeat: no-repeat;
+      background: url(./assests/svg/github_icon.svg);
+    }
+  }
+}
+
+.contentTitle {
+  border-bottom: 1px solid black;
+  font-size: 16px;
+  margin-bottom: 0.2em;
+}
+
+.twoInRow {
+  display: flex;
+  gap: 1em;
+  margin-top: 1em;
+
+  .contentBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 100%;
+    font-size: 0.8em;
+
+    .techSkillBlock {
+      display: flex;
+      margin-left: 2em;
+      gap: 0.5em;
+
+      .techSubtitle {
+        font-size: 0.9em;
+      }
+
+      .skills {
+        font-size: 10px;
+        background-color: rgb(210, 210, 210);
+        padding: 2px;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
+.activityGraph {
+  position: relative;
+
+  .verticalLine {
+    position: absolute;
+    left: calc(23%);
+    top: 6px;
+    width: 1px;
+    height: calc(100% - 11px);
+    background-color: green;
+    z-index: 0;
+  }
+
+  .activityRow {
+    width: 100%;
+    height: 10px;
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+
+    .activityDuration {
+      width: 20%;
+      text-align: right;
+    }
+
+    .big {
+      font-size: 10px;
+      font-weight: 600;
+    }
+
+    .small {
+      font-weight: 400;
+      color: gray;
+      font-size: 10px;
+    }
+
+    .activityCircleBlock {
+      width: 5%;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      z-index: 1;
+
+      .activityCircle {
+        width: 5px;
+        height: 5px;
+        border-radius: 10px;
+        border: 1px solid green;
+      }
+
+      .outlineCircle {
+        background: white;
+      }
+
+      .dot {
+        width: 3px;
+        height: 3px;
+        background: green;
+      }
+    }
+
+    .activityContent {
+      width: 75%;
+      text-align: left;
+      font-size: 9px;
+      margin-left: 6px;
+      font-weight: 200;
+    }
+  }
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+  margin-bottom: 1em;
+
+  .projectTitle {
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 500;
+
+    .projectDuration {
+      font-size: 12px;
+      font-weight: 300;
+    }
+  }
+
+  .projectDescription {
+    font-size: 12px;
+    font-weight: 400;
+    background-color: rgb(210, 210, 210);
+
+    padding: 4px;
+    border-radius: 4px;
+  }
+
+  .projectIndent {
+    display: flex;
+    margin-left: 4%;
+    font-size: 12px;
+
+    .projectStacks {
+      font-size: 12px;
+      font-weight: 300;
+      margin-left: 4px;
+    }
+  }
+}

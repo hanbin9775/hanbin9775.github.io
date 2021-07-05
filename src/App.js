@@ -148,7 +148,7 @@ export default function App($app) {
         또한, 분석이 이루어진 페이지 결과를 남들과 공유할 수 있게끔 url을 설계하였음. 
         페이지 접근 시 외부인원 접근 제한 및 사용자 신원 확인을 목적으로 사내에서 제공하는 OAuth2.0 프로토콜을 사용해 로그인 기능을 구현하였음.`,
         techStacks: ["Vue.js", "Node.js", "Vuex", "Chart.js", "OAuth2.0"],
-        accomplishment: "인턴 근무 연장 및 정직원 전환 제안",
+        accomplishment: "인턴 근무 연장",
       },
       {
         title: "(주)아이젠 웹 개발 인턴",
