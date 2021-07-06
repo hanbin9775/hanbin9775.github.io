@@ -1,5 +1,5 @@
 import App from "./App.js";
-import "./style.scss";
+import "./style2.scss";
 
 try {
   const $app = document.querySelector("#app");
